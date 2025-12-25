@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    cursor: default;
+    overflow-x: hidden;
+    background-color: rgb(0, 0, 0);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+/* first loaded div */
+
+#first_loaded {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 999;
+    justify-content: center;
+    transition: opacity 0.5s ease;
+}
+
+#first_loaded>img {
+    width: 30vmax;
+    height: 15vmax;
+    filter: drop-shadow(2px 2px 5px #e8c09d);
+}
+
+/* left-div */
+
+#left-box {
+    height: 150px;
+    width: 40px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    border: 1px solid #b58c67;
+    margin-right: 1px;
+    z-index: 4;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+    font-size: 1.5rem;
+    top: 40%;
+}
+
+/* header */
+
+
+#header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(46, 46, 46, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    transition: transform 0.6s ease;
+
+}
+
+#header.hide {
+    transform: translateY(-100%);
+}
+
+#nav {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: none;
+    z-index: 2;
+    display: none;
+}
+
+nav .first_ul {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    height: 100%;
+    width: 50%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) center center / cover, url('https://static.designboom.com/wp-content/uploads/2025/12/galerie-foil-gallery-montreal-canada-designboom-02.jpg');
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu-text {
+    color: #e8c09d;
+    font-size: 1rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50px;
+    width: 50px;
+    gap: 5px;
+}
+
+.line2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50px;
+    width: 50px;
+    gap: 8px;
+    position: fixed;
+    right: 10px;
+    top: 25px;
+}
+
+#line1,
+#line3 {
+    height: 1px;
+    background-color: #b58c67;
+    width: 24px;
+
+}
+
+#line2 {
+    height: 1px;
+    background-color: #b58c67;
+    width: 22px;
+    margin-right: 10px;
+}
+
+#line1,
+#line3 {
+    margin-left: 10px;
+}
+
+
+ul>li {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.first_ul>li>a {
+    font-size: 1.8rem;
+    font-weight: 100;
+    text-decoration: none;
+    color: white;
+
+}
+
+.second-ul {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    gap: 50px;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    justify-content: center;
+
+}
+
+.second-ul>li>a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 100;
+    color: white;
+}
+
+
+
+
+/* first section */
+
+.otr-img {
+    background-image: url('./imgs/first_sec.webp');
+    background-size: cover;
+    background-position: center;
+    width: 65%;
+    height: 100vh;
+}
+
+#first-section {
+    height: 100vh;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    color: white;
+    padding: 100px 65px 0px 0px;
+    background-color: rgba(23, 23, 23, 0.6);
+    text-align: end;
+}
+
+.first-heading {
+    font-size: 5rem;
+    color: white;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.scnd-heading {
+    color: transparent;
+    font-weight: 900;
+    font-size: 3.9rem;
+    -webkit-text-stroke: 0.5px #b58c67;
+}
+
+.pera_first {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.4px;
+}
+
+.flower-img {
+    height: fit-content;
+    width: 120px;
+    margin-top: 50px;
+}
+
+.flower-img>img {
+    margin: 0px 5px;
+}
+
+/* section-2 */
+
+.section-2 {
+    height: 80vh;
+    line-height: 200px;
+    width: 100%;
+    color: transparent;
+    -webkit-text-stroke: 0.5px #b58c67;
+    font-size: 6rem;
+    overflow-x: hidden;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: rgba(23, 23, 23, 0.6);
+    /* margin: 30% 0px 0px 0px; */
+    padding-top:30% ;
+    
+}
+
+#firstpera {
+    transform: translateX(-100%);
+    transition: transform 8s ease;
+
+}
+
+#firstpera1 {
+    transform: translateX(-10%);
+    transition: transform 8s ease;
+}
+
+#firstpera.secPera {
+    transform: translateX(0%);
+    transition: transform 7s ease;
+}
+
+#firstpera1.secPerascnd {
+    transform: translateX(-100%);
+    transition: transform 7s ease;
+}
+
+/* remove */
+
+#firstpera.secPeraremove {
+    transform: translateX(-118%);
+    transition: transform 7s ease;
+}
+
+#firstpera1.secPerascndremove {
+    transform: translateX(-10%);
+    transition: transform 7s ease;
+}
+
+
+
+
+
+
+
+
+
+.section-3 {
+    height: 1200px;
+    width: 100%;
+    background-color: rgba(23, 23, 23, 0.6);
+}
+
+
+
+
+
+
+
+
+
+/* responsive */
+@media (max-width:768px) {
+    .second-ul {
+        display: none;
+    }
+
+    #nav .first_ul {
+        width: 100%;
+    }
+
+    .otr-img {
+        width: 100%;
+    }
+
+    .first-heading {
+        font-size: 4rem;
+    }
+
+    .scnd-heading {
+        font-size: 3rem;
+    }
+}
