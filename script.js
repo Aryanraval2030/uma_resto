@@ -75,5 +75,5 @@ window.addEventListener("scroll", () => {
         sectionTwoperasecond.classList.remove("secPerascnd");
         sectionTwoperasecond.classList.add("secPerascndremove");
     }
-        countScroll = currentScroll;
+    countScroll = currentScroll;
 })
