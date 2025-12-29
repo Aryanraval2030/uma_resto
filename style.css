@@ -72,7 +72,7 @@ html {
     background-color: rgba(32, 32, 32, 0.1);
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 2;
     transition: transform 0.6s ease;
 
 }
@@ -379,7 +379,7 @@ ul>li {
 }
 
 
-.sec-4-inr-text {
+.sec-5-inr-text {
     color: #ffffff;
     height: 100%;
     width: 100%;
@@ -541,6 +541,9 @@ ul>li {
 
 
 @media (max-width:530px) {
+    #header{
+        z-index: 9;
+    }
     .second-ul {
         display: none;
     }
@@ -619,5 +622,9 @@ ul>li {
         height: 170px;
         justify-content: space-around;
         gap: 0px;
+    }
+
+    #section-4{
+        margin-top: 90vh;
     }
 }
