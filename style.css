@@ -401,6 +401,8 @@ ul>li {
     font-size: 2rem;
 }
 
+/* section-5 */
+
 #section-5 {
     height: 100vh;
     width: 100vw;
@@ -409,6 +411,19 @@ ul>li {
     z-index: 2;
 }
 
+#sec-5-inr-text> h3{
+    font-weight: 100;
+    letter-spacing: 6px;
+}
+
+.sec-5-btn {
+    padding: 14px 19px;
+    border: 1px solid #e8c09d;
+    color: #f3c69e;
+    font-size: 1.5rem;
+    background-color: transparent;
+    font-weight: 100;
+}
 
 
 
