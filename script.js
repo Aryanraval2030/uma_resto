@@ -69,6 +69,7 @@ window.addEventListener("scroll", () => {
         sectionTwoperasecond.classList.add("secPerascnd")
         sectionTwoperasecond.classList.remove("secPerascndremove")
     }
+    
     else if (currentScroll < countScroll) {
         sectionTwopera.classList.remove("secPera");
         sectionTwopera.classList.add("secPeraremove");

@@ -503,74 +503,67 @@ ul>li {
     font-weight: 100;
 }
 
+/* section-8 */
+
 #section-8 {
-    height: 100vh;
-    width: 100vw;
+    height: 80vh;
     background-color: rgb(23, 23, 23);
     position: relative;
     z-index: 1;
     display: flex;
-    justify-content: center;
-    gap: 20px;
-    color: white;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 0 50px 0 50px;
 }
 
 .sec-8-otr {
-    height: 100%;
     width: 50%;
+}
+
+
+.fore-img,
+.fore-img2 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    aspect-ratio: 1/1;
 }
 
-.sec-8-first {
-    position: absolute;
-    background-image: url('./imgs/fore_sec_1.webp');
-    background-position: center;
-    background-size: cover;
+.fore-img::before {
     height: 100%;
-    width: 50%;
-    /* filter: blur(7px); */
-}
-
-.sec-8-second {
+    width: 100%;
+    content: '';
     position: absolute;
     background-image: url('./imgs/fore_sec_2.webp');
     background-position: center;
     background-size: cover;
+    z-index: 2;
+}
+
+.fore-img2::before {
     height: 100%;
-    width: 50%;
-    /* filter: blur(7px); */
-}
-
-.sec-8-text {
-    position: relative;
-    text-align: center;
-    height: 100%;
-    width: 102%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    content: '';
+    position: absolute;
+    background-image: url('./imgs/fore_sec_1.webp');
+    background-position: center;
+    background-size: cover;
+    z-index: 2;
 }
 
 
-.sec-8-text>p {
-    font-weight: 100;
-    font-size: 2rem;
-    margin: 10px;
+.fore-img h1,
+.fore-img2 h1 {
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    z-index: 2;
+    background-color: rgba(23, 23, 23, 0.6);
+
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -605,6 +598,19 @@ ul>li {
         right: 15%;
         transform: rotate(20deg);
     }
+    /* section-8 */
+
+    #section-8{
+        /* display: block; */
+        flex-wrap: wrap;
+        gap: 10px;
+        height: 70vh;
+    }
+
+    .sec-8-otr{
+        width: 100%;
+    }
+
 }
 
 
