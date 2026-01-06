@@ -598,16 +598,16 @@ ul>li {
         right: 15%;
         transform: rotate(20deg);
     }
+
     /* section-8 */
 
-    #section-8{
-        /* display: block; */
+    #section-8 {
         flex-wrap: wrap;
         gap: 10px;
         height: 70vh;
     }
 
-    .sec-8-otr{
+    .sec-8-otr {
         width: 100%;
     }
 
@@ -706,6 +706,19 @@ ul>li {
     .sec-6-inr-text {
         width: 100vw;
     }
+
+    /* section-8 */
+
+    #section-8 {
+        flex-wrap: wrap;
+        gap: 10px;
+        height: 70vh;
+    }
+
+    .sec-8-otr {
+        width: 100%;
+    }
+
 
 }
 
@@ -826,5 +839,20 @@ ul>li {
 
     #section-7 {
         padding: 0px 0px 0px 5px;
+        height: 65vh;
     }
+
+
+    /* section-8 */
+
+    #section-8 {
+        flex-wrap: wrap;
+        gap: 10px;
+        height: 100vh;
+    }
+
+    .sec-8-otr {
+        width: 100%;
+    }
+
 }
