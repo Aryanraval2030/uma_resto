@@ -605,6 +605,7 @@ ul>li {
         flex-wrap: wrap;
         gap: 10px;
         height: 70vh;
+        padding: 0px 1rem;
     }
 
     .sec-8-otr {
@@ -713,6 +714,8 @@ ul>li {
         flex-wrap: wrap;
         gap: 10px;
         height: 70vh;
+        padding: 0px 1rem;
+
     }
 
     .sec-8-otr {
@@ -849,6 +852,8 @@ ul>li {
         flex-wrap: wrap;
         gap: 10px;
         height: 100vh;
+        padding: 0px 1rem;
+
     }
 
     .sec-8-otr {
