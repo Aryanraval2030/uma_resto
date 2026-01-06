@@ -805,10 +805,12 @@ ul>li {
 
     .sec-6-inr-text-most {
         width: 100vw;
+        height: auto;
     }
 
     #section-6 {
         padding: 100px 0px 0px 0px;
+        height: 70vh;
     }
 
     .sec-6-inr-text-most {
@@ -818,10 +820,8 @@ ul>li {
 
     .sec-6-inr-text {
         width: 100vw;
-    }
+        height: auto;
 
-    #section-6 {
-        padding: 100px 0px 0px 10px;
     }
 
     #section-7 {
