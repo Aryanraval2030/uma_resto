@@ -530,7 +530,6 @@ ul>li {
     display: flex;
     justify-content: center;
     align-items: center;
-    aspect-ratio: 1/1;
 }
 
 .fore-img::before {
@@ -564,6 +563,82 @@ ul>li {
     background-color: rgba(23, 23, 23, 0.6);
 
 }
+
+
+/* section-9 */
+
+
+/* 
+#section-9 {
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid white;
+    position: relative;
+    z-index: 1;
+    background-color: rgb(23, 23, 23);
+    color: transparent;
+    -webkit-text-stroke: 0.5px #b58c67;
+    font-size: 6rem;
+    overflow-x: hidden;
+    overflow: hidden;
+    white-space: nowrap;
+} */
+
+
+.section-9 {
+    height: 80vh;
+    line-height: 200px;
+    width: 100vw;
+    color: transparent;
+    -webkit-text-stroke: 0.5px #b58c67;
+    font-size: 6rem;
+    overflow-x: hidden;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: rgb(23, 23, 23);
+    position: relative;
+    z-index: 1;
+}
+
+#firstpera {
+    transform: translateX(-100%);
+    transition: transform 8s ease;
+
+}
+
+#firstpera1 {
+    transform: translateX(-10%);
+    transition: transform 8s ease;
+}
+
+#firstpera.secPera {
+    transform: translateX(0%);
+    transition: transform 7s ease;
+}
+
+#firstpera1.secPerascnd {
+    transform: translateX(-100%);
+    transition: transform 7s ease;
+}
+
+/* remove */
+
+#firstpera.secPeraremove {
+    transform: translateX(-118%);
+    transition: transform 7s ease;
+}
+
+#firstpera1.secPerascndremove {
+    transform: translateX(-10%);
+    transition: transform 7s ease;
+}
+
+
+
+
+
+
+
 
 
 
@@ -604,12 +679,13 @@ ul>li {
     #section-8 {
         flex-wrap: wrap;
         gap: 10px;
-        height: 70vh;
+        height: 180vh;
         padding: 0px 1rem;
     }
 
     .sec-8-otr {
         width: 100%;
+        height: 80vh;
     }
 
 }
@@ -713,13 +789,14 @@ ul>li {
     #section-8 {
         flex-wrap: wrap;
         gap: 10px;
-        height: 70vh;
+        height: 150vh;
         padding: 0px 1rem;
 
     }
 
     .sec-8-otr {
         width: 100%;
+        height: 70vh;
     }
 
 
@@ -851,13 +928,14 @@ ul>li {
     #section-8 {
         flex-wrap: wrap;
         gap: 10px;
-        height: 100vh;
+        height: 130vh;
         padding: 0px 1rem;
 
     }
 
     .sec-8-otr {
         width: 100%;
+        height: 60vh;
     }
 
 }
