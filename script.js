@@ -69,7 +69,7 @@ window.addEventListener("scroll", () => {
         sectionTwoperasecond.classList.add("secPerascnd")
         sectionTwoperasecond.classList.remove("secPerascndremove")
     }
-    
+
     else if (currentScroll < countScroll) {
         sectionTwopera.classList.remove("secPera");
         sectionTwopera.classList.add("secPeraremove");
@@ -77,4 +77,36 @@ window.addEventListener("scroll", () => {
         sectionTwoperasecond.classList.add("secPerascndremove");
     }
     countScroll = currentScroll;
+})
+
+
+
+
+
+// section 9 scrolling effect of text
+
+let sectionTwopera1 = document.querySelector("#firstpera2")
+let sectionTwoperasecond2 = document.querySelector("#firstpera3")
+
+let scrollText1 = 0
+let countScroll2 = window.screenY
+
+window.addEventListener("scroll", () => {
+    let currentScroll2 = window.scrollY
+
+
+    if (currentScroll2 > countScroll2 && currentScroll2 > 50) {
+        sectionTwopera1.classList.add("secPera1")
+        sectionTwopera1.classList.remove("secPeraremove1")
+        sectionTwoperasecond2.classList.add("secPerascnd1")
+        sectionTwoperasecond2.classList.remove("secPerascndremove1")
+    }
+
+    else if (currentScroll2 < countScroll2) {
+        sectionTwopera1.classList.remove("secPera1");
+        sectionTwopera1.classList.add("secPeraremove1");
+        sectionTwoperasecond2.classList.remove("secPerascnd1");
+        sectionTwoperasecond2.classList.add("secPerascndremove1");
+    }
+    countScroll2 = currentScroll2;
 })

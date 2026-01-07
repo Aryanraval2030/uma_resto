@@ -600,35 +600,35 @@ ul>li {
     z-index: 1;
 }
 
-#firstpera {
+#firstpera2 {
     transform: translateX(-100%);
     transition: transform 8s ease;
 
 }
 
-#firstpera1 {
+#firstpera3 {
     transform: translateX(-10%);
     transition: transform 8s ease;
 }
 
-#firstpera.secPera {
+#firstpera2.secPera1 {
     transform: translateX(0%);
     transition: transform 7s ease;
 }
 
-#firstpera1.secPerascnd {
+#firstpera3.secPerascnd1 {
     transform: translateX(-100%);
     transition: transform 7s ease;
 }
 
 /* remove */
 
-#firstpera.secPeraremove {
+#firstper2.secPeraremove1 {
     transform: translateX(-118%);
     transition: transform 7s ease;
 }
 
-#firstpera1.secPerascndremove {
+#firstpera3.secPerascndremove1 {
     transform: translateX(-10%);
     transition: transform 7s ease;
 }
