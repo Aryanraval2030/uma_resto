@@ -896,7 +896,7 @@ form {
     }
 
     .sec-10-name {
-        width:100%;
+        width: 100%;
     }
 }
 
@@ -1044,5 +1044,35 @@ form {
         padding-top: 30%;
         font-size: 5rem;
         height: auto;
+    }
+
+
+    /* section-10 */
+
+
+    #section-10 {
+        flex-wrap: wrap;
+        height: 100vh;
+    }
+
+    .sec-10-text {
+        width: 100vw;
+        height: 10vh;
+    }
+
+    .sec-10-mail {
+        width: 100vw;
+    }
+
+
+    .sec-10-inr {
+        flex-wrap: wrap;
+        width: 100vw;
+        width: 100%;
+        padding: 10vh 0 0 0;
+    }
+
+    .sec-10-name {
+        width: 100%;
     }
 }
