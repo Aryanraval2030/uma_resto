@@ -297,6 +297,19 @@
         AOS.init();
     </script>
 
+
+
+    <script>
+        if (localStorage.getItem("umaAccess") !== "granted") {
+            window.location.href = "code.html";
+        }
+    </script>
+
+
+
+
+
+
     <script src="./script.js"></script>
 </body>
 
