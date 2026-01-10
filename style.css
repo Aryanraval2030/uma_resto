@@ -555,13 +555,14 @@ ul>li {
 }
 
 
-.fore-img h1,
-.fore-img2 h1 {
-    color: rgb(0, 0, 0);
+.fore-img2>h1 {
     font-size: 32px;
     z-index: 2;
-    background-color: rgba(23, 23, 23, 0.6);
+}
 
+.fore-img>h1 {
+    font-size: 32px;
+    z-index: 2;
 }
 
 
@@ -1060,7 +1061,7 @@ form {
     }
 
     #section-6 {
-        padding: 100px 0px 0px 0px;
+        padding: 100px 1.7rem 0px 1.7rem;
         height: 70vh;
     }
 
@@ -1076,7 +1077,7 @@ form {
     }
 
     #section-7 {
-        padding: 0px 0px 0px 5px;
+        padding: 0px 1.7rem 0px 1.7rem;
         height: 65vh;
     }
 
@@ -1087,7 +1088,7 @@ form {
         flex-wrap: wrap;
         gap: 10px;
         height: 130vh;
-        padding: 0px 1rem;
+        padding: 0px 1.8rem;
 
     }
 
@@ -1124,16 +1125,27 @@ form {
         width: 100vw;
     }
 
-    form{
+    form {
         padding: 2rem;
     }
 
+    .fore-img2>h1 {
+        color: rgb(0, 0, 0);
+        background-color: none;
+        font-size: 1.6rem;
+    }
+
+    .fore-img>h1 {
+        color: rgb(0, 0, 0);
+        background-color: none;
+        font-size: 1.6rem;
+    }
 
     .sec-10-inr {
         flex-wrap: wrap;
         width: 100vw;
         width: 100%;
-        padding: 10vh 0 0 0;
+        padding: 25vh 0 0 0;
     }
 
     .sec-10-name {
@@ -1148,7 +1160,7 @@ form {
         padding-top: 10vh;
     }
 
-    .laster-ftr{
+    .laster-ftr {
         padding-top: 5vh;
     }
 }
