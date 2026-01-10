@@ -827,16 +827,16 @@ form {
     }
 
     .first-heading {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 
     .scnd-heading {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .section-2 {
         padding-top: 100px;
-        font-size: 5rem;
+        font-size: 4rem;
         height: auto;
     }
 
@@ -866,7 +866,7 @@ form {
 
 
     .sec-3-text>h1 {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
     .sec-3-text>p {
@@ -979,16 +979,16 @@ form {
     }
 
     .first-heading {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 
     .scnd-heading {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     #section-2 {
         padding-top: 30%;
-        font-size: 5rem;
+        font-size: 4rem;
         height: auto;
     }
 
@@ -1019,7 +1019,7 @@ form {
 
 
     .sec-3-text>h1 {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
     .sec-3-text>p {
@@ -1102,7 +1102,7 @@ form {
 
     .section-9 {
         padding-top: 30%;
-        font-size: 5rem;
+        font-size: 4rem;
         height: auto;
     }
 
@@ -1122,6 +1122,10 @@ form {
 
     .sec-10-mail {
         width: 100vw;
+    }
+
+    form{
+        padding: 2rem;
     }
 
 
