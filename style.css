@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* u-block-origin-light */
+    /* crome-web-store */
+    /* piracy */
+
 }
 
 body {
@@ -415,6 +419,9 @@ ul>li {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
 
 .all-btn {
     padding: 14px 19px;
@@ -424,7 +431,69 @@ ul>li {
     background-color: transparent;
     font-weight: 100;
     width: 200px;
+    height: 60px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
 }
+
+.all-btn::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    bottom: 100%;
+    left: 0%;
+    width: 100%;
+    background-color: #b58c67;
+    z-index: -1;
+    transition: bottom 300ms ease;
+
+}
+
+.all-btn .text {
+    left: 50%;
+    /* ✅ IMPORTANT */
+    white-space: nowrap;
+    position: absolute;
+    transition: 250ms ease;
+}
+
+.all-btn .text-2 {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.all-btn .text-1 {
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.all-btn:is(:hover, :focus-visible)::before {
+    bottom: 0%;
+}
+
+
+.all-btn:is(:hover, :focus-visible) .text-1 {
+    transform: translate(-50%, -200%);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.all-btn:is(:hover, :focus-visible) .text-2 {
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+
+}
+
+
+
+
+
 
 /* section-6 */
 
@@ -633,6 +702,7 @@ ul>li {
     transform: translateX(-10%);
     transition: transform 7s ease;
 }
+
 /* section-10 */
 
 #section-10 {
@@ -1164,7 +1234,8 @@ form {
     .laster-ftr {
         padding-top: 5vh;
     }
-    .all-btn{
+
+    .all-btn {
         font-size: 1.3rem;
     }
 }
