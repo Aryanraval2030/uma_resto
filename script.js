@@ -83,7 +83,7 @@ window.addEventListener("scroll", () => {
 
 
 
-// section 9 scrolling effect of text
+// section 9 scrolling `effect of text
 
 let sectionTwopera1 = document.querySelector("#firstpera2")
 let sectionTwoperasecond2 = document.querySelector("#firstpera3")
