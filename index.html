@@ -158,7 +158,7 @@
                 <span class="text text-1">view our menu
                 </span>
 
-                
+
 
                 <span class="text text-2" aria-hidden="true">view our menu
                 </span>
@@ -261,6 +261,8 @@
     <!-- footer-->
 
 
+
+
     <footer id="footer">
 
 
@@ -312,28 +314,14 @@
     </script>
 
 
-
-
-
+    <script>
+        if (!localStorage.getItem("isLoggedIn")) {
+            window.location.href = "./sign-upasd/index.html";
+        }
+    </script>
 
 
     <script src="./script.js"></script>
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
