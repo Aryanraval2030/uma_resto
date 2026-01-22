@@ -1,21 +1,28 @@
 
-// const form = document.querySelector("#form")
+const form = document.querySelector("#form")
 
-// form.addEventListener("submit", (e) => {
-//     e.preventDefault()
+form.addEventListener("submit", (e) => {
+    e.preventDefault()
 
 
-//     let firstName = document.getElementById("firstname").value.trim()
-//     let LastName = document.getElementById("lastname").value.trim()
-//     let email = document.getElementById("email").value.trim()
-//     let pswd = document.getElementById("pswd").value.trim()
-//     let confimpaswd = document.getElementById("confimpaswd").value.trim()
+    let firstName = document.getElementById("firstname").value.trim()
+    let LastName = document.getElementById("lastname").value.trim()
+    let email = document.getElementById("email").value.trim()
+    let pswd = document.getElementById("pswd").value.trim()
+    let confimpaswd = document.getElementById("confimpaswd").value.trim()
 
-//     if (pswd.value !== confimpaswd.value) {
-//         alert("your password is not match, plz try again...")
-//         return
-//     }
+    if (pswd.value !== confimpaswd.value) {
+        alert("your password is not match, plz try again...")
+        return
+    }
 
+    if(!firstName || !LastName || !email || !email || !pswd ||!confimpaswd){
+        alert("plz fild this page after enter this restaurant")
+        return
+
+    }
+
+    
 //     const userData = {
 //         firstName,
 //         LastName,
@@ -26,6 +33,12 @@
 
 //     localStorage.setItem("signupuser", JSON.stringify(userData))
 
+    window.location.href = "https://uma-resto.vercel.app/";
 
-//     form.reset();
-// })
+    form.reset();
+})
+
+
+
+
+
