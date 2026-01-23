@@ -2,10 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* u-block-origin-light */
-    /* crome-web-store */
-    /* piracy */
-
 }
 
 body {
@@ -206,7 +202,7 @@ ul>li {
 /* first section */
 
 .otr-img {
-    background-image: url('./imgs/first_sec.webp');
+    background-image: url('../imgs/first_sec.webp');
     background-size: cover;
     background-position: center;
     width: 65%;
@@ -368,7 +364,7 @@ ul>li {
 #section-4 {
     height: 100vh;
     width: 100vw;
-    background-image: url('./imgs/three_sec_1.webp');
+    background-image: url('../imgs/three_sec_1.webp');
     background-size: cover;
     background-position: center;
     position: sticky;
@@ -605,7 +601,7 @@ a {
     width: 100%;
     content: '';
     position: absolute;
-    background-image: url('./imgs/fore_sec_2.webp');
+    background-image: url('../imgs/fore_sec_2.webp');
     background-position: center;
     background-size: cover;
     z-index: 2;
@@ -616,7 +612,7 @@ a {
     width: 100%;
     content: '';
     position: absolute;
-    background-image: url('./imgs/fore_sec_1.webp');
+    background-image: url('../imgs/fore_sec_1.webp');
     background-position: center;
     background-size: cover;
     z-index: 2;
@@ -710,7 +706,7 @@ a {
     background-color: rgb(23, 23, 23);
     position: relative;
     z-index: 1;
-    background-image: url('./imgs/five_sec_1.webp');
+    background-image: url('../imgs/five_sec_1.webp');
     background-position: center;
     background-size: cover;
 }
