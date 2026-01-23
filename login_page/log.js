@@ -16,10 +16,16 @@ form.addEventListener("submit", (e) => {
 
     localStorage.setItem("signupuser", JSON.stringify(userData))
 
-    localStorage.setItem("userloged", "true")
+    // localStorage.setItem("userloged", "true")
 
-    window.location.href = "../main_folder/index.html"
+    // window.location.href = "../main_folder/index.html"
 
-    
+
+    // successful login ke baad
+    localStorage.setItem("isLoggedIn", "true");
+    window.location.href = "../mainfolder/index.html";
+
+
+
     form.reset()
 })
