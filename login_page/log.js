@@ -18,7 +18,7 @@ form.addEventListener("submit", (e) => {
 
     localStorage.setItem("userloged", "true")
 
-    window.location.href = "../index.html"
+    window.location.href = "../main_folder/index.html"
 
     
     form.reset()
